@@ -1,0 +1,169 @@
+Akka Capabilities (targeted)
+------------------------------------------
+Scala API
+Java API (optional)
+Actor basics (create actors, send messages, routing strategies)
+Supervision and lifecycle (directives, deciders, hooks)
+Futures/Promises in actors
+Agents
+Akka HTTP (directives, routing DSL)
+CQRS/ES
+	EventSourced
+	Akka Persistence
+	Eventuate
+	Serialization strategies
+	Storage backends
+Data Replication
+Serialization
+Akka IO
+Akka Streams
+Remoting
+Clustering
+	Routing Strategies
+	PubSub pattern
+	Distributed Workers pattern
+	Singleton vs Sharding
+Akka Camel
+Testing
+	Akka TestKit (Probes, TestActorRef)
+	HTTP TestKit
+	Multi-JVM tests
+Tuning (know various Dispatchers and when to use them, isolation of thread pools, batching through the throughput setting)
+Monitoring
+
+Prerequisites:
+-----------------------------
+You need to make sure that $JAVA_HOME environment variable is set to the root of the Java distribution. You also need to make sure that the $JAVA_HOME/bin is on your PATH.
+
+On Linux/Unix/Mac systems:
+$ export JAVA_HOME=..root of Java distribution..
+$ export PATH=$PATH:$JAVA_HOME/bin
+You can test your installation by invoking java:
+
+$ java -version
+java version "1.6.0_24"
+Java(TM) SE Runtime Environment (build 1.6.0_24-b07-334-10M3326)
+Java HotSpot(TM) 64-Bit Server VM (build 19.1-b02-334, mixed mode)
+
+On Windows systems:
+C:\Users\jboner\src\akka> set JAVA_HOME=..root of Java distribution..
+C:\Users\jboner\src\akka> set PATH=%PATH%;%JAVA_HOME%/bin
+You can test your installation by invoking java:
+
+C:\Users\jboner\src\akka> java -version
+java version "1.6.0_24"
+Java(TM) SE Runtime Environment (build 1.6.0_24-b07-334-10M3326)
+Java HotSpot(TM) 64-Bit Server VM (build 19.1-b02-334, mixed mode)
+
+
+Creating of Actor:
+---------------------
+Actors are implemented by extending the Actor base trait and implementing the receive method.
+The receive method should define a series of case statements (which has the type PartialFunction[Any, Unit]) 
+
+ex:
+class MyActor extends Actor with ActorLogging{
+  def receive = {
+    case "test" => log.info("received test")
+    case _      => log.info("received unknown message")
+  }
+}
+Props:
+---------------------
+Props is a configuration class to specify options for the creation of actors, think of it as an immutable and thus freely shareable recipe for creating an actor including associated deployment information
+
+import akka.actor.Props
+val props1 = Props[MyActor]
+val props2 = Props(new ActorWithArgs("arg")) // careful, see below
+val props3 = Props(classOf[ActorWithArgs], "arg") // no support for value class arguments
+
+Identifying Actors via Actor Selection:
+------------------------
+context.actorSelection("/user/serviceA/aggregator")
+context.actorSelection("../joe")
+
+If the path starts with /, it is absolute and the look-up starts at the root guardian, otherwise it starts at the current actor. 
+If a path element equals .., the look-up will take a step “up” towards the supervisor of the currently traversed actor, otherwise it will step “down” to the named child
+
+Actor Ref :  
+Actor Selection : 
+Actor Path : /user/Actor A/ Actor B
+
+
+Messages and immutability
+------------------------
+Messages are sent to an Actor through one of the following methods
+! means “fire-and-forget”, e.g. send a message asynchronously and return immediately. Also known as tell.
+? sends a message asynchronously and returns a Future representing a possible reply. Also known as ask.
+
+Ways to stop actors
+--------------------------------
+! stop method	
+	The actor will continue to process its current message (if any), but no additional messages will be processed.
+PoisonPill message
+	A PoisonPill message will stop an actor when the message is processed. A PoisonPill message is queued just like an ordinary message and will be handled after other messages queued ahead of it in its mailbox.
+gracefulStop method	
+	Lets you attempt to terminate actors gracefully, waiting for them to timeout. The documentation states that this is a good way to terminate actors in a specific order.
+
+Akka HTTP
+---------------------------
+The Akka HTTP modules implement a full server- and client-side HTTP stack on top of akka-actor and akka-stream
+	Dependies : 
+		"com.typesafe.akka" %% "akka-http" % "10.0.9",
+		"com.typesafe.akka" %% "akka-stream" % "2.5.11"
+		
+The modules that make up Akka HTTP : akka-http, akka-http-core, akka-http-testkit,  akka-http-spray-json,  akka-http-xml 
+
+erlang ref: http://erlware.org/designing-for-actor-based-systems/
+  HTTP Model
+  URI Model
+
+The server-side components of Akka HTTP are split into two layers
+
+The basic low-level server implementation in the akka-http-core module
+Higher-level functionality in the akka-http module
+
+Ref: https://blog.codecentric.de/en/2015/08/introduction-to-akka-actors/  
+Low-Level Server-Side API
+-----------------------------
+Akka HTTP also provides an embedded, Reactive-Streams-based, fully asynchronous HTTP/1.1 server implemented on top of Streams.
+High-level Server-Side API:
+-----------------------------
+Routes
+Directives
+Rejections
+Exception Handling
+Configuring Server-side HTTPS
+
+Basic Server creation:
+----------------------
+import akka.http.scaladsl.model.{ ContentTypes, HttpEntity }
+import akka.http.scaladsl.server.HttpApp
+import akka.http.scaladsl.server.Route
+
+// Server definition
+object WebServer extends HttpApp { // HttpApp deprecated now
+  override def routes: Route =
+    path("hello") {
+      get {
+        complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, "<h1>Say hello to akka-http</h1>"))
+      }
+    }
+}
+
+// Starting the server
+WebServer.startServer("localhost", 8080)
+
+
+Distribution implies integration
+---------------------------
+Within a machine 
+	akka-actor 
+Between your own(sub-)systems
+	akka-remoting & akka-cluster
+with other(external) systems
+	akka-http
+
+INFO
+---------------------------
+https://tersesystems.com/blog/2014/06/25/akka-clustering/	
