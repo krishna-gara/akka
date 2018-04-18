@@ -1,0 +1,13 @@
+[error] C:\Users\kgara\COE\bioIngine\akka-examples\src\main\scala\Ponger.scala:33:1: expected class or object definition
+[error] val system = ActorSystem("pingpong")
+[error] ^
+[error] C:\Users\kgara\COE\bioIngine\akka-examples\src\main\scala\Ponger.scala:35:1: expected class or object definition
+[error] val pinger = system.actorOf(Props[Pinger], "pinger")
+[error] ^
+[error] C:\Users\kgara\COE\bioIngine\akka-examples\src\main\scala\Ponger.scala:37:1: expected class or object definition
+[error] val ponger = system.actorOf(Props(classOf[Ponger], pinger), "ponger")
+[error] ^
+[error] C:\Users\kgara\COE\bioIngine\akka-examples\src\main\scala\Ponger.scala:40:1: expected class or object definition
+[error] system.scheduler.scheduleOnce(500 millis) {
+[error] ^
+[error] four errors found

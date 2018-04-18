@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="akka-examples$sources"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20180417112556"/>
+	<dependencies>
+		<module organisation="com.lightbend.akka" name="akka-stream-alpakka-cassandra_2.11">
+			<revision name="0.1" status="release" pubdate="20161110233823" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/akka/alpakka" extra-info.apiURL="http://doc.akka.io/alpakka/api/0.1" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3699" time="0" location="C:\Users\kgara\.ivy2\cache\com.lightbend.akka\akka-stream-alpakka-cassandra_2.11\ivy-0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-cassandra_2.11/0.1/akka-stream-alpakka-cassandra_2.11-0.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/alpakka/api/0.1"/>
+				<artifacts>
+					<artifact name="akka-stream-alpakka-cassandra_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3421" time="0" location="C:\Users\kgara\.ivy2\cache\com.lightbend.akka\akka-stream-alpakka-cassandra_2.11\srcs\akka-stream-alpakka-cassandra_2.11-0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-cassandra_2.11/0.1/akka-stream-alpakka-cassandra_2.11-0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-xml_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201143513" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3152" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-xml_2.11\ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-xml_2.11/10.0.11/akka-http-xml_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2189" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-xml_2.11\srcs\akka-http-xml_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-xml_2.11/10.0.11/akka-http-xml_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.6" status="release" pubdate="20160920145614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3175" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\ivy-1.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.0.6" rev-constraint-default="1.0.6" rev-constraint-dynamic="1.0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109202" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\srcs\scala-xml_2.11-1.0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.6/scala-xml_2.11-1.0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-spray-json_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201143512" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="39">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3284" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-spray-json_2.11\ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.11/10.0.11/akka-http-spray-json_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http-spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3994" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-spray-json_2.11\srcs\akka-http-spray-json_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-spray-json_2.11/10.0.11/akka-http-spray-json_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201143515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="42">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="2989" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http_2.11\ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.11/akka-http_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200604" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http_2.11\srcs\akka-http_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.11/10.0.11/akka-http_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-http_2.11">
+			<revision name="5.4.2" status="release" pubdate="20170509192204" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5211" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.elastic4s\elastic4s-http_2.11\ivy-5.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-http_2.11/5.4.2/elastic4s-http_2.11-5.4.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.4.2" rev-constraint-default="5.4.2" rev-constraint-dynamic="5.4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="elastic4s-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="80719" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.elastic4s\elastic4s-http_2.11\srcs\elastic4s-http_2.11-5.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-http_2.11/5.4.2/elastic4s-http_2.11-5.4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.3" status="release" pubdate="20170121213023" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9890" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpclient\ivy-4.5.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.5.3" rev-constraint-default="4.5.3" rev-constraint-dynamic="4.5.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="712826" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpclient\srcs\httpclient-4.5.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch.client" name="rest">
+			<revision name="5.4.0" status="release" pubdate="20170429002749" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3628" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch.client\rest\ivy-5.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/client/rest/5.4.0/rest-5.4.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.4.0" rev-constraint-default="5.4.0" rev-constraint-dynamic="5.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="rest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27144" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch.client\rest\srcs\rest-5.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/client/rest/5.4.0/rest-5.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106194535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10706" time="0" location="C:\Users\kgara\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="C:\Users\kgara\.ivy2\cache\commons-codec\commons-codec\srcs\commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpasyncclient">
+			<revision name="4.1.2" status="release" pubdate="20160618182203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-asyncclient" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Apache License, Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="9852" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpasyncclient\ivy-4.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.1.2" rev-constraint-default="4.1.2" rev-constraint-dynamic="4.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpasyncclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="139450" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpasyncclient\srcs\httpasyncclient-4.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore-nio">
+			<revision name="4.4.5" status="release" pubdate="20160608221051" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7851" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\ivy-4.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore-nio" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="358477" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpcore-nio\srcs\httpcore-nio-4.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.5" status="release" pubdate="20160608220939" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7774" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpcore\ivy-4.4.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.4.5" rev-constraint-default="4.4.5" rev-constraint-dynamic="4.4.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="403554" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.httpcomponents\httpcore\srcs\httpcore-4.4.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140705234228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11725" time="0" location="C:\Users\kgara\.ivy2\cache\commons-logging\commons-logging\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="C:\Users\kgara\.ivy2\cache\commons-logging\commons-logging\srcs\commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.elastic4s" name="elastic4s-core_2.11">
+			<revision name="5.4.2" status="release" pubdate="20170509192303" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/elastic4s" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="88">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4371" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.elastic4s\elastic4s-core_2.11\ivy-5.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-core_2.11/5.4.2/elastic4s-core_2.11-5.4.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.4.2" rev-constraint-default="5.4.2" rev-constraint-dynamic="5.4.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="elastic4s-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="157753" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.elastic4s\elastic4s-core_2.11\srcs\elastic4s-core_2.11-5.4.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/elastic4s/elastic4s-core_2.11/5.4.2/elastic4s-core_2.11-5.4.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="elasticsearch">
+			<revision name="5.4.0" status="release" pubdate="20170429002740" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/elastic/elasticsearch" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7936" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\elasticsearch\ivy-5.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.4.0" rev-constraint-default="5.4.0" rev-constraint-dynamic="5.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="elasticsearch" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5735231" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\elasticsearch\srcs\elasticsearch-5.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/elasticsearch/5.4.0/elasticsearch-5.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="jna">
+			<revision name="4.4.0" status="release" pubdate="20170413080324" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/java-native-access/jna" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2584" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\jna\ivy-4.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/jna/4.4.0/jna-4.4.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.4.0" rev-constraint-default="4.4.0" rev-constraint-dynamic="4.4.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jna" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146165" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\jna\srcs\jna-4.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/jna/4.4.0/jna-4.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.vividsolutions" name="jts">
+			<revision name="1.13" status="release" pubdate="20121214105909" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://sourceforge.net/projects/jts-topo-suite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Lesser General Public License (LGPL)" url="http://www.gnu.org/copyleft/lesser.txt"/>
+				<metadata-artifact status="no" details="" size="2884" time="0" location="C:\Users\kgara\.ivy2\cache\com.vividsolutions\jts\ivy-1.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.13" rev-constraint-default="1.13" rev-constraint-dynamic="1.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jts" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="973570" time="0" location="C:\Users\kgara\.ivy2\cache\com.vividsolutions\jts\srcs\jts-1.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/vividsolutions/jts/1.13/jts-1.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.8.6" status="release" pubdate="20170112110921" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-dataformats-binary" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9737" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.6/jackson-dataformat-cbor-2.8.6.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="41050" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\srcs\jackson-dataformat-cbor-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.8.6/jackson-dataformat-cbor-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-yaml">
+			<revision name="2.8.6" status="release" pubdate="20170112110820" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8932" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-yaml\ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.6/jackson-dataformat-yaml-2.8.6.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-yaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30562" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-yaml\srcs\jackson-dataformat-yaml-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.8.6/jackson-dataformat-yaml-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-smile">
+			<revision name="2.8.6" status="release" pubdate="20170112110932" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-dataformats-binary" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="100">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9687" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\ivy-2.8.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.6/jackson-dataformat-smile-2.8.6.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.6" rev-constraint-default="2.8.6" rev-constraint-dynamic="2.8.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-smile" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70006" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-smile\srcs\jackson-dataformat-smile-2.8.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.8.6/jackson-dataformat-smile-2.8.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.15" status="release" pubdate="20150219185710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Apache License Version 2.0" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3629" time="0" location="C:\Users\kgara\.ivy2\cache\org.yaml\snakeyaml\ivy-1.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.15" rev-constraint-default="1.15" rev-constraint-dynamic="1.15" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="169119" time="0" location="C:\Users\kgara\.ivy2\cache\org.yaml\snakeyaml\srcs\snakeyaml-1.15-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.7.1" status="release" pubdate="20150507130334" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7180" time="0" location="C:\Users\kgara\.ivy2\cache\com.carrotsearch\hppc\ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="hppc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="738368" time="0" location="C:\Users\kgara\.ivy2\cache\com.carrotsearch\hppc\srcs\hppc-0.7.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.7.1/hppc-0.7.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="5.0.2" status="release" pubdate="20160608234008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pholser.github.io/jopt-simple" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4302" time="0" location="C:\Users\kgara\.ivy2\cache\net.sf.jopt-simple\jopt-simple\ivy-5.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.2" rev-constraint-default="5.0.2" rev-constraint-dynamic="5.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="85461" time="0" location="C:\Users\kgara\.ivy2\cache\net.sf.jopt-simple\jopt-simple\srcs\jopt-simple-5.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.2/jopt-simple-5.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-highlighter">
+			<revision name="6.5.0" status="release" pubdate="20170325134755" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="530019" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-highlighter\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/6.5.0/lucene-highlighter-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-highlighter" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="180813" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-highlighter\srcs\lucene-highlighter-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-highlighter/6.5.0/lucene-highlighter-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-memory">
+			<revision name="6.5.0" status="release" pubdate="20170325134711" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="529392" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-memory\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/6.5.0/lucene-memory-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-memory" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27097" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-memory\srcs\lucene-memory-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-memory/6.5.0/lucene-memory-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queryparser">
+			<revision name="6.5.0" status="release" pubdate="20170325134559" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="529489" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-queryparser\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/6.5.0/lucene-queryparser-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-queryparser" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="407191" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-queryparser\srcs\lucene-queryparser-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queryparser/6.5.0/lucene-queryparser-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-sandbox">
+			<revision name="6.5.0" status="release" pubdate="20170325134513" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528862" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-sandbox\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/6.5.0/lucene-sandbox-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-sandbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="121420" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-sandbox\srcs\lucene-sandbox-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-sandbox/6.5.0/lucene-sandbox-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-backward-codecs">
+			<revision name="6.5.0" status="release" pubdate="20170325135115" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528908" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-backward-codecs\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/6.5.0/lucene-backward-codecs-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-backward-codecs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50122" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-backward-codecs\srcs\lucene-backward-codecs-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-backward-codecs/6.5.0/lucene-backward-codecs-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150327022005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<metadata-artifact status="no" details="" size="4881" time="0" location="C:\Users\kgara\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="C:\Users\kgara\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sksamuel.exts" name="exts_2.11">
+			<revision name="1.40.0" status="release" pubdate="20170331121653" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sksamuel/exts" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="MIT" url="https://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3549" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.exts\exts_2.11\ivy-1.40.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sksamuel/exts/exts_2.11/1.40.0/exts_2.11-1.40.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.40.0" rev-constraint-default="1.40.0" rev-constraint-dynamic="1.40.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="exts_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16532" time="0" location="C:\Users\kgara\.ivy2\cache\com.sksamuel.exts\exts_2.11\srcs\exts_2.11-1.40.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sksamuel/exts/exts_2.11/1.40.0/exts_2.11-1.40.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.elasticsearch" name="securesm">
+			<revision name="1.1" status="release" pubdate="20160705173927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3443" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\securesm\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.1/securesm-1.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="securesm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6883" time="0" location="C:\Users\kgara\.ivy2\cache\org.elasticsearch\securesm\srcs\securesm-1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/elasticsearch/securesm/1.1/securesm-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11">
+			<revision name="2.8.8" status="release" pubdate="20170406002028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4260" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.11\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.8.8/jackson-module-scala_2.11-2.8.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53619" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.11\srcs\jackson-module-scala_2.11-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.8.8/jackson-module-scala_2.11-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.8.8" status="release" pubdate="20170405091326" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="21425" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.8/jackson-module-paranamer-2.8.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7271" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\srcs\jackson-module-paranamer-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.8/jackson-module-paranamer-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.8.8" status="release" pubdate="20170405085958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8225" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="927247" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.8.8" status="release" pubdate="20170405085047" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="93">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57660" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.8/jackson-annotations-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.8.8" status="release" pubdate="20170405085329" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7486" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.8.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8.8" rev-constraint-default="2.8.8" rev-constraint-dynamic="2.8.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="294498" time="0" location="C:\Users\kgara\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.8.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial">
+			<revision name="6.5.0" status="release" pubdate="20170325134447" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528944" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/6.5.0/lucene-spatial-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50440" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial\srcs\lucene-spatial-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial/6.5.0/lucene-spatial-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial-extras">
+			<revision name="6.5.0" status="release" pubdate="20170325134424" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="530231" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial-extras\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/6.5.0/lucene-spatial-extras-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial-extras" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="152409" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial-extras\srcs\lucene-spatial-extras-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial-extras/6.5.0/lucene-spatial-extras-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.locationtech.spatial4j" name="spatial4j">
+			<revision name="0.6" status="release" pubdate="20160227030900" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.locationtech.org/projects/locationtech.spatial4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4189" time="0" location="C:\Users\kgara\.ivy2\cache\org.locationtech.spatial4j\spatial4j\ivy-0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spatial4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134651" time="0" location="C:\Users\kgara\.ivy2\cache\org.locationtech.spatial4j\spatial4j\srcs\spatial4j-0.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/locationtech/spatial4j/spatial4j/0.6/spatial4j-0.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-spatial3d">
+			<revision name="6.5.0" status="release" pubdate="20170325134402" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528912" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial3d\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/6.5.0/lucene-spatial3d-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-spatial3d" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="224490" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-spatial3d\srcs\lucene-spatial3d-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-spatial3d/6.5.0/lucene-spatial3d-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-misc">
+			<revision name="6.5.0" status="release" pubdate="20170325134649" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528870" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-misc\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/6.5.0/lucene-misc-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-misc" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="115583" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-misc\srcs\lucene-misc-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-misc/6.5.0/lucene-misc-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-join">
+			<revision name="6.5.0" status="release" pubdate="20170325134730" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528857" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-join\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/6.5.0/lucene-join-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-join" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="62416" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-join\srcs\lucene-join-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-join/6.5.0/lucene-join-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.5.11" status="release" pubdate="20180228183351" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4476" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.5.11/akka-remote_2.11-2.5.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
+				<artifacts>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="346277" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-remote_2.11\srcs\akka-remote_2.11-2.5.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.5.11/akka-remote_2.11-2.5.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.aeron" name="aeron-driver">
+			<revision name="1.7.0" status="release" pubdate="20171215071633" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="C:\Users\kgara\.ivy2\cache\io.aeron\aeron-driver\ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.7.0/aeron-driver-1.7.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="aeron-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="175365" time="0" location="C:\Users\kgara\.ivy2\cache\io.aeron\aeron-driver\srcs\aeron-driver-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/aeron/aeron-driver/1.7.0/aeron-driver-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.aeron" name="aeron-client">
+			<revision name="1.7.0" status="release" pubdate="20171215071620" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/aeron" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3100" time="0" location="C:\Users\kgara\.ivy2\cache\io.aeron\aeron-client\ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/aeron/aeron-client/1.7.0/aeron-client-1.7.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="aeron-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="137687" time="0" location="C:\Users\kgara\.ivy2\cache\io.aeron\aeron-client\srcs\aeron-client-1.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/aeron/aeron-client/1.7.0/aeron-client-1.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.agrona" name="agrona">
+			<revision name="0.9.12" status="release" pubdate="20171215065527" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/real-logic/agrona" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="C:\Users\kgara\.ivy2\cache\org.agrona\agrona\ivy-0.9.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/agrona/agrona/0.9.12/agrona-0.9.12.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.12" rev-constraint-default="0.9.12" rev-constraint-dynamic="0.9.12" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="agrona" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244320" time="0" location="C:\Users\kgara\.ivy2\cache\org.agrona\agrona\srcs\agrona-0.9.12-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/agrona/agrona/0.9.12/agrona-0.9.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.6.Final" status="release" pubdate="20160629181528" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7263" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty\ivy-3.10.6.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="3.10.6.Final" rev-constraint-default="3.10.6.Final" rev-constraint-dynamic="3.10.6.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1132389" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty\srcs\netty-3.10.6.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.6.Final/netty-3.10.6.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
+			<revision name="2.5.11" status="release" pubdate="20180228182958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="85">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3580" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.11/akka-stream_2.11-2.5.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
+				<artifacts>
+					<artifact name="akka-stream_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="527272" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\srcs\akka-stream_2.11-2.5.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.11/2.5.11/akka-stream_2.11-2.5.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.11">
+			<revision name="0.2.2" status="release" pubdate="20170308201333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe\ssl-config-core_2.11\ivy-0.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.2/ssl-config-core_2.11-0.2.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.2.2" rev-constraint-default="0.2.2" rev-constraint-dynamic="0.2.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49384" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe\ssl-config-core_2.11\srcs\ssl-config-core_2.11-0.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.11/0.2.2/ssl-config-core_2.11-0.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430193747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\srcs\scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171219013638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\kgara\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="C:\Users\kgara\.ivy2\cache\org.reactivestreams\reactive-streams\srcs\reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.11">
+			<revision name="2.5.11" status="release" pubdate="20180228182804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2846" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.11\ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.11/akka-protobuf_2.11-2.5.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275262" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-protobuf_2.11\srcs\akka-protobuf_2.11-2.5.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.5.11/akka-protobuf_2.11-2.5.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.5.11" status="release" pubdate="20180228182749" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3140" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.5.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.11/akka-actor_2.11-2.5.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.5.11" rev-constraint-default="2.5.11" rev-constraint-dynamic="2.5.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.11"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="525135" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\srcs\akka-actor_2.11-2.5.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.5.11/akka-actor_2.11-2.5.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.2" status="release" pubdate="20171006193218" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2910" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe\config\ivy-1.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="172766" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe\config\srcs\config-1.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.2/config-1.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="3.1.0" status="release" pubdate="20160728024043" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8392" time="0" location="C:\Users\kgara\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="593225" time="0" location="C:\Users\kgara\.ivy2\cache\com.datastax.cassandra\cassandra-driver-core\srcs\cassandra-driver-core-3.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/3.1.0/cassandra-driver-core-3.1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.9" status="release" pubdate="20160518200331" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="4228" time="0" location="C:\Users\kgara\.ivy2\cache\org.hdrhistogram\HdrHistogram\ivy-2.1.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.1.9" rev-constraint-default="2.1.9" rev-constraint-dynamic="2.1.9" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="111315" time="0" location="C:\Users\kgara\.ivy2\cache\org.hdrhistogram\HdrHistogram\srcs\HdrHistogram-2.1.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.9/HdrHistogram-2.1.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-posix">
+			<revision name="3.0.27" status="release" pubdate="20160119223156" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Common Public License - v 1.0" url="http://www-128.ibm.com/developerworks/library/os-cpl.html"/>
+				<license name="GNU General Public License Version 2" url="http://www.gnu.org/copyleft/gpl.html"/>
+				<license name="GNU Lesser General Public License Version 2.1" url="http://www.gnu.org/licenses/lgpl.html"/>
+				<metadata-artifact status="no" details="" size="3915" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-posix\ivy-3.0.27.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="3.0.27" rev-constraint-default="3.0.27" rev-constraint-dynamic="3.0.27" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jnr-posix" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="110297" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-posix\srcs\jnr-posix-3.0.27-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-posix/3.0.27/jnr-posix-3.0.27-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-ffi">
+			<revision name="2.0.7" status="release" pubdate="20151113011154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-ffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4970" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-ffi\ivy-2.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.0.7" rev-constraint-default="2.0.7" rev-constraint-dynamic="2.0.7" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jnr-ffi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="352057" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-ffi\srcs\jnr-ffi-2.0.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-ffi/2.0.7/jnr-ffi-2.0.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-x86asm">
+			<revision name="1.0.2" status="release" pubdate="20120407082021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-x86asm" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3230" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-x86asm\ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jnr-x86asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="171252" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-x86asm\srcs\jnr-x86asm-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="5.0.3" status="release" pubdate="20140524140053" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4176" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-util\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-util" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-util\srcs\asm-util-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="5.0.3" status="release" pubdate="20140524140023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4184" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-analysis\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-analysis\srcs\asm-analysis-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="5.0.3" status="release" pubdate="20140524140033" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4182" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-commons\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-commons" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-commons\srcs\asm-commons-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="5.0.3" status="release" pubdate="20140524140043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4171" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-tree\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm-tree" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm-tree\srcs\asm-tree-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.3" status="release" pubdate="20140524140012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3992" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm\ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="C:\Users\kgara\.ivy2\cache\org.ow2.asm\asm\srcs\asm-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jffi">
+			<revision name="1.2.10" status="release" pubdate="20151107004808" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jffi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3660" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jffi\ivy-1.2.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.2.10" rev-constraint-default="1.2.10" rev-constraint-dynamic="1.2.10" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jffi" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="87673" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jffi\srcs\jffi-1.2.10-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jffi/1.2.10/jffi-1.2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.dropwizard.metrics" name="metrics-core">
+			<revision name="3.1.2" status="release" pubdate="20150426092901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5183" time="0" location="C:\Users\kgara\.ivy2\cache\io.dropwizard.metrics\metrics-core\ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="52914" time="0" location="C:\Users\kgara\.ivy2\cache\io.dropwizard.metrics\metrics-core\srcs\metrics-core-3.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0.1" status="release" pubdate="20140204041528" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="101">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5672" time="0" location="C:\Users\kgara\.ivy2\cache\com.google.guava\guava\ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1261127" time="0" location="C:\Users\kgara\.ivy2\cache\com.google.guava\guava\srcs\guava-16.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607234239" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="90">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15471" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-handler\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.37.Final/netty-handler-4.0.37.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="187099" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-handler\srcs\netty-handler-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.0.37.Final/netty-handler-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607234122" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15146" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-codec\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.37.Final/netty-codec-4.0.37.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="134477" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-codec\srcs\netty-codec-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.0.37.Final/netty-codec-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607234047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="14468" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-transport\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.37.Final/netty-transport-4.0.37.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="247682" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-transport\srcs\netty-transport-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.0.37.Final/netty-transport-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
+			<revision name="0.7.0" status="release" pubdate="20150831163233" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3072" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12469" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.11\srcs\scala-java8-compat_2.11-0.7.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607233927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="14462" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-buffer\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.37.Final/netty-buffer-4.0.37.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="138146" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-buffer\srcs\netty-buffer-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.0.37.Final/netty-buffer-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.0.37.Final" status="release" pubdate="20160607233753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="15426" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-common\ivy-4.0.37.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.37.Final/netty-common-4.0.37.Final.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="4.0.37.Final" rev-constraint-default="4.0.37.Final" rev-constraint-dynamic="4.0.37.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="337156" time="0" location="C:\Users\kgara\.ivy2\cache\io.netty\netty-common\srcs\netty-common-4.0.37.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.0.37.Final/netty-common-4.0.37.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-suggest">
+			<revision name="6.5.0" status="release" pubdate="20170325134339" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="529432" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-suggest\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/6.5.0/lucene-suggest-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-suggest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201516" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-suggest\srcs\lucene-suggest-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-suggest/6.5.0/lucene-suggest-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="6.5.0" status="release" pubdate="20170325135413" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528946" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/6.5.0/lucene-analyzers-common-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1454850" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-analyzers-common\srcs\lucene-analyzers-common-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/6.5.0/lucene-analyzers-common-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045918" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4136" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.9.0/cats_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats_2.11\srcs\cats_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats_2.11/0.9.0/cats_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-jvm_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045746" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3397" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-jvm_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.9.0/cats-jvm_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-jvm_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="243" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-jvm_2.11\srcs\cats-jvm_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-jvm_2.11/0.9.0/cats-jvm_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-free_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045753" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="99">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3405" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-free_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.9.0/cats-free_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-free_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13314" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-free_2.11\srcs\cats-free_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-free_2.11/0.9.0/cats-free_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.9.5" status="release" pubdate="20161103220647" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6773" time="0" location="C:\Users\kgara\.ivy2\cache\joda-time\joda-time\ivy-2.9.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.5/joda-time-2.9.5.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.9.5" rev-constraint-default="2.9.5" rev-constraint-dynamic="2.9.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="777266" time="0" location="C:\Users\kgara\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.9.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.9.5/joda-time-2.9.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.0" status="release" pubdate="20140513083938" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3777" time="0" location="C:\Users\kgara\.ivy2\cache\com.tdunning\t-digest\ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.0/t-digest-3.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="t-digest" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30094" time="0" location="C:\Users\kgara\.ivy2\cache\com.tdunning\t-digest\srcs\t-digest-3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.0/t-digest-3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.jnr" name="jnr-constants">
+			<revision name="0.9.0" status="release" pubdate="20150831191303" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jnr/jnr-constants" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3328" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-constants\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="jnr-constants" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130028" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.jnr\jnr-constants\srcs\jnr-constants-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/jnr/jnr-constants/0.9.0/jnr-constants-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826165928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="C:\Users\kgara\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="C:\Users\kgara\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-grouping">
+			<revision name="6.5.0" status="release" pubdate="20170325134817" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="529150" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-grouping\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/6.5.0/lucene-grouping-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-grouping" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74075" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-grouping\srcs\lucene-grouping-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-grouping/6.5.0/lucene-grouping-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-queries">
+			<revision name="6.5.0" status="release" pubdate="20170325134623" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528869" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-queries\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/6.5.0/lucene-queries-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-queries" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146460" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-queries\srcs\lucene-queries-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-queries/6.5.0/lucene-queries-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-laws_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045901" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4417" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-laws_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.9.0/cats-laws_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50610" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-laws_2.11\srcs\cats-laws_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-laws_2.11/0.9.0/cats-laws_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel-laws_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045722" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3685" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-kernel-laws_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.9.0/cats-kernel-laws_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5341" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-kernel-laws_2.11\srcs\cats-kernel-laws_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel-laws_2.11/0.9.0/cats-kernel-laws_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="catalysts-platform_2.11">
+			<revision name="0.0.5" status="release" pubdate="20161108030529" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/catalysts" extra-info.apiURL="https://typelevel.github.io/catalysts/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3029" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\catalysts-platform_2.11\ivy-0.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="0.1" extra-info.apiURL="https://typelevel.github.io/catalysts/api/"/>
+				<artifacts>
+					<artifact name="catalysts-platform_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="663" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\catalysts-platform_2.11\srcs\catalysts-platform_2.11-0.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/catalysts-platform_2.11/0.0.5/catalysts-platform_2.11-0.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="catalysts-macros_2.11">
+			<revision name="0.0.5" status="release" pubdate="20161108030525" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/catalysts" extra-info.apiURL="https://typelevel.github.io/catalysts/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3324" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\catalysts-macros_2.11\ivy-0.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="0.1" extra-info.apiURL="https://typelevel.github.io/catalysts/api/"/>
+				<artifacts>
+					<artifact name="catalysts-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1435" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\catalysts-macros_2.11\srcs\catalysts-macros_2.11-0.0.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/catalysts-macros_2.11/0.0.5/catalysts-macros_2.11-0.0.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="discipline_2.11">
+			<revision name="0.7.2" status="release" pubdate="20161102233613" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/discipline" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3230" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\discipline_2.11\ivy-0.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="discipline_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4126" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\discipline_2.11\srcs\discipline_2.11-0.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.7.2/discipline_2.11-0.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="6.5.0" status="release" pubdate="20170325134943" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="528012" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-core\ivy-6.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.5.0/lucene-core-6.5.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="6.5.0" rev-constraint-default="6.5.0" rev-constraint-dynamic="6.5.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2044424" time="0" location="C:\Users\kgara\.ivy2\cache\org.apache.lucene\lucene-core\srcs\lucene-core-6.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/6.5.0/lucene-core-6.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201143404" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3772" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-core_2.11\ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.11/akka-http-core_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="404985" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-http-core_2.11\srcs\akka-http-core_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.11/10.0.11/akka-http-core_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.spray" name="spray-json_2.11">
+			<revision name="1.3.4" status="release" pubdate="20171024122329" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spray/spray-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3118" time="0" location="C:\Users\kgara\.ivy2\cache\io.spray\spray-json_2.11\ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.4/spray-json_2.11-1.3.4.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="spray-json_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="23747" time="0" location="C:\Users\kgara\.ivy2\cache\io.spray\spray-json_2.11\srcs\spray-json_2.11-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/spray/spray-json_2.11/1.3.4/spray-json_2.11-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
+			<revision name="10.0.11" status="release" pubdate="20171201143526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3146" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-parsing_2.11\ivy-10.0.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.11/akka-parsing_2.11-10.0.11.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="10.0.11" rev-constraint-default="10.0.11" rev-constraint-dynamic="10.0.11" callerrev="0.1" extra-info.apiURL="http://doc.akka.io/api/akka-http/10.0.11/"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63785" time="0" location="C:\Users\kgara\.ivy2\cache\com.typesafe.akka\akka-parsing_2.11\srcs\akka-parsing_2.11-10.0.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.11/10.0.11/akka-parsing_2.11-10.0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045813" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3534" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-core_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.9.0/cats-core_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="135323" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-core_2.11\srcs\cats-core_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.11/0.9.0/cats-core_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.11">
+			<revision name="1.13.4" status="release" pubdate="20161101194546" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2831" time="0" location="C:\Users\kgara\.ivy2\cache\org.scalacheck\scalacheck_2.11\ivy-1.13.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.13.4" rev-constraint-default="1.13.4" rev-constraint-dynamic="1.13.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53555" time="0" location="C:\Users\kgara\.ivy2\cache\org.scalacheck\scalacheck_2.11\srcs\scalacheck_2.11-1.13.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.13.4/scalacheck_2.11-1.13.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20130629041435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2621" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-sbt\test-interface\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="test-interface" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18792" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-sbt\test-interface\srcs\test-interface-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045735" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-kernel_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.9.0/cats-kernel_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33234" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-kernel_2.11\srcs\cats-kernel_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.11/0.9.0/cats-kernel_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.11">
+			<revision name="0.9.0" status="release" pubdate="20170116045655" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-macros_2.11\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.9.0/cats-macros_2.11-0.9.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1" extra-info.apiURL="http://typelevel.org/cats/api/"/>
+				<artifacts>
+					<artifact name="cats-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1199" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\cats-macros_2.11\srcs\cats-macros_2.11-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.11/0.9.0/cats-macros_2.11-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.11">
+			<revision name="0.6.1" status="release" pubdate="20161029204411" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\machinist_2.11\ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="machinist_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3546" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\machinist_2.11\srcs\machinist_2.11-0.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.6.1/machinist_2.11-0.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.11">
+			<revision name="0.10.0" status="release" pubdate="20161020071638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.mpilquist\simulacrum_2.11\ivy-0.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="0.10.0" rev-constraint-default="0.10.0" rev-constraint-dynamic="0.10.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="simulacrum_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6576" time="0" location="C:\Users\kgara\.ivy2\cache\com.github.mpilquist\simulacrum_2.11\srcs\simulacrum_2.11-0.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/mpilquist/simulacrum_2.11/0.10.0/simulacrum_2.11-0.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215162037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2999" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\macro-compat_2.11\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1052" time="0" location="C:\Users\kgara\.ivy2\cache\org.typelevel\macro-compat_2.11\srcs\macro-compat_2.11-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.8" status="release" pubdate="20160304205641" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2860" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="562895" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.8" status="release" pubdate="20160304205633" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="8">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2685" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang\scala-library\ivy-2.11.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.pom"/>
+				<caller organisation="default" name="akka-examples$sources" conf="compile-internal, compile, provided, optional" rev="2.11.8" rev-constraint-default="2.11.8" rev-constraint-dynamic="2.11.8" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911686" time="0" location="C:\Users\kgara\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.11.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
